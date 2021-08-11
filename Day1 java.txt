@@ -1,0 +1,43 @@
+
+JAVA – DAY 1 ASSIGNMENT
+
+1.Difference between compiler and interpreter
+
+  COMPILER	
+  1. Scans the entire program and translate it as a whole into machine code.
+  2. It usually take large amount of time to analyse the source code.
+  3. The overall execution time is comparatively faster than interpreters.
+  4. Generate object code which further requires linking, hence requires more memory.
+  5. Examples : C, C++, Java
+
+  INTERPRETER
+  1. Translates one program statement at a time.
+  2. It usually take less amount of time to analyse the source code.
+  3. The overall execution time is comparatively slower than compilers.
+  4. No object code is generated, hence are memory efficient.
+  5. Examples : Python, JavaScript, Ruby
+
+
+2.Java program to create class Student and getting inputs and displaying it
+
+  PROGRAM :
+  import java.util.Scanner;
+  class Student {
+    public static void main(String[] args) {
+        int roll;
+        String name;
+        float marks;
+        Scanner sc=new Scanner(System.in);
+        System.out.print("Enter roll no : ");
+        roll=sc.nextInt();
+        System.out.print("Enter name : ");
+        name=sc.next();
+        sc.nextLine();
+        System.out.println("Enter marks : ");
+        marks=sc.nextFloat();
+        System.out.println("STUDENT DETAILS");
+        System.out.println("Roll no : "+roll+"\nName : " + name + "\nMarks : "+marks);
+    }
+  }
+
+
