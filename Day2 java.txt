@@ -1,0 +1,14 @@
+
+JAVA - DAY 2 ASSIGNMENT
+
+
+1. Write a java program which would take two values through command line args and print the sum of the two values
+
+Program :
+
+class Sum {
+    public static void main (String [] args) {
+        System.out.println("Enter 2 numbers : "+args[0]+" "+args[1]);
+        System.out.print("Sum : "+args[0+1]);
+    }
+}
